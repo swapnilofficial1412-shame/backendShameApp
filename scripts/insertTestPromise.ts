@@ -8,7 +8,7 @@ const prisma = new PrismaClient();
 async function insertTestPromise() {
   try {
     const now = new Date();
-    // Set visibleAt to now so it's immediately visible testing and
+    // Set visibleAt to now so it's immediately visible 
     const visibleAt = new Date(now.getTime() - 1000); // 1 second ago to ensure it's visible
 
     const promise = await prisma.promiseReport.create({
