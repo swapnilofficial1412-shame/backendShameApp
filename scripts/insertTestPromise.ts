@@ -15,7 +15,7 @@ async function insertTestPromise() {
       data: {
         reporterName: 'Test Reporter',
         accusedName: 'John Doe',
-        description: 'Promised to finish the project by Friday but didn\'t deliver',
+        description: 'Promised to finish the project by Friday but didn\'t deliver and failed to deliver on time',
         datePromised: new Date('2024-01-15T10:00:00Z'),
         visibleAt: visibleAt,
       },
